@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Prolog"
+date: 2014-08-24 22:46:13 +1200
+comments: true
+categories: [prolog,programming]
+---
+## 1.
+{% codeblock lang:prolog %}
+/*
+	[] does not match [H|T]
+	[a] matchs [a|[]]
+*/
+foo([H|T]):-
+	write(H),write(' '),write(T),nl.
+
+?- foo([]).
+false.
+
+?- foo([1]).
+1 []
+true.
+{% endcodeblock %}
+
+## 2.
+{% codeblock lang:prolog %}
+split2([H|T],[H],L2):-
+	split3([H|T],[],_),
+	write('match2'),nl.
+split3([H|T],[],_).▫
+{% endcodeblock %}
+
+If we run <code>split2([1,2],X,Y)</code> to copy 1, to X, actually we are asking if <code>split2([1,2],X,Y)</code> is True. It works as following:
+
++	check if line 2 is true
++	check if line 4 is true
++	line 4 is true, line 2 is true, then, line 1 is true
+
+{% codeblock lang:prolog %}
+[trace]  ?- split2([1,2],X,Y).
+   Call: (6) split2([1, 2], _G1720, _G1721) ? creep
+   Call: (7) split3([1, 2], [], _G1823) ? creep
+   Exit: (7) split3([1, 2], [], _G1823) ? creep
+   Call: (7) write(match2) ? creep
+match2
+   Exit: (7) write(match2) ? creep
+   Call: (7) nl ? creep
+
+   Exit: (7) nl ? creep
+   Exit: (6) split2([1, 2], [1], _G1721) ? creep
+X = [1].
+{% endcodeblock %}
+

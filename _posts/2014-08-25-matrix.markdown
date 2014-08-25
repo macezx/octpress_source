@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Matrix"
+date: 2014-08-25 23:10:54 +1200
+comments: true
+categories: [ideas]
+---
+![matrix](/images/2014-08-25-matrix/matrix.jpg)
+
+The Matrix showed us a traditional perspective of computation theory, which is a hierarchical world and ruled by concrete mapping. Everything have some purpose and it must be mapped to something, even THE ONE. And almost 14 years passed since the first Matrix.<!--more-->
+
+We still don't have a algorithm or thesis of creating consciousness, in other term, self-awareness, or free will. I think it hardly can be called free will if you could create one.
+Formal logic is one way of describe how we deduce and reasoning, however, machine can deduce or "reasoning" on some level of data based on the rule we programed into them.
+
+![](/images/2014-08-25-matrix/her.jpg)
+
+Statistics and probability are method we used to realize systems which are so complicated or complex that we have no idea of how to realize. It works in physics. But there are differences between a physical world and a mental world. In physical world, for every object which has same physical properties, same equations apply, mostly. In mental world, symbols have different meanings in different context and have subjective explaination.
+
+So, suppose we all are models trained with different data sample, therefore, with same input, we will produce different outcome.
+
+Maybe, that is how we think...
+
+![Transcendence](/images/2014-08-25-matrix/trans.jpg)
+
+Her and Transcendence are possible and understandable, if we train the model with right algorithms and data. And if we can build the algorithm into it, like a turing machine in every computer and program, of course it will evolve itself.
+
+And we can assure, if the machine is not trained by some ill-purpose sample, it will have moral sense and a normal mind.
+
+So, did I just conclude that Free Will is bull shit? No one can accept this. I also can not accept that we all are machines in some way. However, is it just very absurd or is it so objective that our subjective ego can not accept it.
+
+Ok, maybe all of us are just our ego...

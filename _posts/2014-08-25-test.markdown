@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Test"
+date: 2014-08-25 22:07:12 +1200
+comments: true
+categories: 
+---
+$\frac{\partial x}{\partial}=\Sigma_{i=0}^{n}{x \times y ^{e^x}}$
